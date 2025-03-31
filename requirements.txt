@@ -5,4 +5,4 @@ shap
 numpy
 xgboost
 pickle-mixin
-
+google.generativeai as genai 
