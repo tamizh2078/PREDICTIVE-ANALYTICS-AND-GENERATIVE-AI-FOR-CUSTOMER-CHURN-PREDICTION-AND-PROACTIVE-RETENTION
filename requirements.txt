@@ -1,6 +1,7 @@
 streamlit
 scikit-learn
 pandas
+shap
 numpy
 xgboost
 pickle-mixin
