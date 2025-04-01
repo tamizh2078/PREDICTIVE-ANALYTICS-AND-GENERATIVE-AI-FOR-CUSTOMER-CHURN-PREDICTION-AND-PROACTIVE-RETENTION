@@ -60,7 +60,7 @@ with open('scaler.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
 # Set up Gemini API Key
-genai.configure(api_key="AIzaSyBZqCBT4SuMr46pG_Szexon9jFadVIReQw")
+genai.configure(api_key="AIzaSyBHTgW1aQDKSweTSFp7_qsrQvB1DWp3oGo")
 
 def explain_churn(features, values):
     prompt = f"""Based on the following customer details:
