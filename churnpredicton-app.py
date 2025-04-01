@@ -92,9 +92,9 @@ user_inputs = {
     "Gender_Female": int(st.sidebar.checkbox("Gender - Female")),
     "Gender_Male": int(st.sidebar.checkbox("Gender - Male")),
 "HasCrCard_0": int(not st.sidebar.checkbox("Has Credit Card", key="HasCrCard")),
-"HasCrCard_1": int(st.sidebar.checkbox("Has Credit Card", key="HasCrCard_1")),
+"HasCrCard_1": int(st.sidebar.checkbox("Does not have Credit Card", key="HasCrCard_1")),
 "IsActiveMember_0": int(not st.sidebar.checkbox("Active Member", key="IsActiveMember")),
-"IsActiveMember_1": int(st.sidebar.checkbox("Active Member", key="IsActiveMember_1"))
+"IsActiveMember_1": int(st.sidebar.checkbox("Not a Active Member", key="IsActiveMember_1"))
 
 
 }
